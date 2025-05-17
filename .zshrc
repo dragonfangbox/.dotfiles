@@ -109,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
  alias ohmyzsh="mate ~/.oh-my-zsh"
  alias vi="nvim"
  alias vim="nvim"
+ alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 # BEGIN opam configuration
 # This is useful if you're using opam as it adds:
